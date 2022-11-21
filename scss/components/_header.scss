@@ -1,0 +1,49 @@
+.header {
+  background-color: #EF6039;
+  padding-top: 17px;
+  padding-bottom: 16px;
+  
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+.logo {
+  margin-right: auto;
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+}
+
+.main-menu li {
+  margin-right: 60px;
+}
+
+.main-menu a {
+  font-size: 16px;
+  line-height: 32px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button  {
+  display: inline-block;
+  padding: 14px 36px;
+  border-radius: 24px;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+.button--white {
+  color: #fff;
+  border: solid #fff;
+  border-radius: 24px;
+}
