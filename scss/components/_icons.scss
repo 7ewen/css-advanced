@@ -1,29 +1,37 @@
 svg:nth-child(-n+4) {
-  padding-right:30px;
-  padding-left:30px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
-svg:nth-child(1) {
-  width: 20px;
-  height: 28.85px;
-}
+// svg:nth-child(1) {
+//   width: 20px;
+//   height: 28.85px;
+// }
 
-svg:nth-child(2) {
-  width: 27px;
-  height: 34.47px;
-}
+// svg:nth-child(2) {
+//   width: 27px;
+//   height: 34.47px;
+// }
 
-svg:nth-child(3) {
-  width: 50px;
-  height: 40.78px;
-}
+// svg:nth-child(3) {
+//   width: 50px;
+//   height: 40.78px;
+// }
 
-svg:nth-child(4) {
-  width: 60px;
-  height: 50.78px;
-}
+// svg:nth-child(4) {
+//   width: 60px;
+//   height: 50.78px;
+// }
 
 .icons {
-  display: flex;
   align-items: center;
+  display: flex;
+}
+
+.icons ul{
+  display: flex; 
+  
+  li {
+    display: block;
+  }
 }
