@@ -1,0 +1,86 @@
+.gradient-box {
+  height: 300px;
+  background-color: green;
+}
+
+.gradient-box--1 {
+  background: linear-gradient(270deg, #e66465 30%, #9198e5 70%);
+}
+
+.gradient-box--2 {
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(121,70,252,0.24163168685442926) 100%);
+}
+
+.gradient-box--3 {
+  background: linear-gradient(225deg, rgba(63,251,239,0.7654412106639531) 18%, rgba(63,94,251,1) 26%, rgba(105,78,182,1) 42%, rgba(125,71,150,0.6029762246695554) 57%, rgba(125,71,150,0.6029762246695554) 64%, rgba(106,150,71,1) 72%, rgba(125,71,150,0.6029762246695554) 83%);
+}
+
+.gradient-box--4 {
+  background: radial-gradient(circle, rgba(36,33,0,1) 0%, rgba(73,89,6,0.3144608185070903) 22%, rgba(9,9,121,1) 35%, rgba(7,145,37,1) 45%, rgba(195,4,27,0.7318277652858018) 66%, rgba(0,255,72,1) 100%);
+}
+
+.gradient-box--5 {
+  background: repeating-linear-gradient(50deg, #0b648a, #51a610 15%, #643b15 20%);
+}
+
+.gradient-box--6 {
+  background: repeating-linear-gradient(#0e0d0d, #0d9347 30px, #091ce8 10px, #393b56 40px);
+}
+
+.gradient-box--7 {
+  background: linear-gradient(to right, rgb(71, 34, 34), rgb(85, 17, 17) 70%, #eee 80%, #333 70%);
+}
+
+.gradient-box--8 {
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 80.71%),
+  linear-gradient(127deg, rgba(4, 137, 4, 0.8), rgba(87, 168, 87, 0) 80.71%),
+  linear-gradient(336deg, rgba(22, 22, 96, 0.8), rgba(226, 226, 236, 0) 80.71%);
+}
+
+.gradient-box--9 {
+  background: repeating-linear-gradient(transparent, #1d1d1c 50px), repeating-linear-gradient(0.25turn, transparent, #0bd604 70px);
+}
+
+.gradient-box--10 {
+  background: radial-gradient(closest-side, #0b99d6, #e71eae, #180f05);
+}
+
+.gradient-box--11 {
+  background: radial-gradient(circle at 100%, #333, #333 60%, rgb(126, 10, 10) 75%, rgb(124, 4, 4) 80%);
+}
+
+.gradient-box--12 {
+  background: radial-gradient(ellipse at top, #690909, transparent), radial-gradient(ellipse at bottom, #b007ce, transparent);
+}
+
+.gradient-box--13 {
+  background: repeating-radial-gradient(#38aa08, #040c5e 20%);
+}
+
+.gradient-box--14 {
+  background: repeating-radial-gradient(closest-side, #3d0960, #aa720a8c, #08435a);
+}
+
+.gradient-box--15 {
+  background: repeating-radial-gradient(circle at 100%, rgb(164, 5, 5), rgb(162, 6, 6) 10px, rgb(238, 238, 238) 10px, rgb(238, 238, 238) 20px);
+}
+
+.gradient-box--16 {
+  background: conic-gradient(rgb(99, 44, 44), rgb(228, 227, 225), rgb(50, 13, 132), #53a953, rgb(140, 26, 26));
+}
+
+.gradient-box--17 {
+  background: conic-gradient(from 0.25turn at 60% 20%, #735535, 10deg, #3f87a6, 350deg, #53b10c);
+}
+
+.gradient-box--18 {
+  background: conic-gradient(from 3.1416rad at 15% 60%, #450b0b, #424ed1);
+}
+
+.gradient-box--19 {
+  background: conic-gradient(rgb(98, 28, 28) 6deg, rgb(117, 82, 17) 6deg 18deg, yellow 18deg 45deg,green 45deg 110deg, rgb(92, 92, 150) 110deg 200deg, rgb(122, 85, 122) 200deg);
+}
+
+.gradient-box--20 {
+  background: repeating-conic-gradient(from 45deg at 27% 60%, rgb(110, 177, 50) 0deg 10deg, rgb(96, 84, 54) 40deg 30deg,rgb(154, 71, 12) 20deg 30deg);
+}
