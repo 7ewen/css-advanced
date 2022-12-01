@@ -4523,6 +4523,7 @@ svg:nth-child(-n+4) {
 }
 .icons ul li {
   display: block;
+  width: 100%;
 }
 
 li:nth-child(1):hover svg {
