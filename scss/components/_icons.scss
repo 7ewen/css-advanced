@@ -16,34 +16,18 @@ svg:nth-child(-n+4) {
   }
 }
 
-li:nth-child(1) {
-  &:hover {
-    svg {
-      filter: drop-shadow(10px -5px 1px red);
-    }
-  }
+.svg_shadows_red:hover {
+  filter: drop-shadow(10px -5px 1px red);
 }
 
-li:nth-child(2) {
-  &:hover {
-    svg {
-      filter: drop-shadow(10px -5px 1px rgb(110, 107, 13));
-    }
-  }
+.svg_shadows_brown:hover {
+  filter: drop-shadow(10px -5px 1px rgb(110, 107, 13));
 }
 
-li:nth-child(3) {
-  &:hover {
-    svg {
-      filter: drop-shadow(10px -5px 1px rgb(47, 13, 110));
-    }
-  }
+.svg_shadows_blue:hover {
+  filter: drop-shadow(10px -5px 1px rgb(47, 13, 110));
 }
 
-li:last-child {
-  &:hover {
-    svg {
-      filter: drop-shadow(10px -5px 1px rgb(0, 166, 0));
-    }
-  }
+.svg_shadows_green:hover{
+ filter: drop-shadow(10px -5px 1px rgb(0, 166, 0));
 }
