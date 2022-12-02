@@ -1,11 +1,18 @@
 $header-height: 95px;
 $sidebar-width: 232px;
 
+$header-height: 95px;
+$sidebar-width: 232px;
+
 .header {
   height: $header-height;
   background-color: #F2F2F2;
   border-bottom: #EEEEEE solid 1px; 
+  height: $header-height;
+  background-color: #F2F2F2;
+  border-bottom: #EEEEEE solid 1px; 
   display: flex;
+  justify-content: space-around; 
   justify-content: space-around; 
 }
 
@@ -14,6 +21,8 @@ $sidebar-width: 232px;
   margin-top: 27px;
   margin-bottom: 27px;
   padding-left: 20px;
-  padding-right: 149px;
+  padding-right: 50px;
   border: 1px solid #BCBCBC;
 }
+
+

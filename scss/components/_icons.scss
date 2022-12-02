@@ -3,35 +3,31 @@ svg:nth-child(-n+4) {
   margin-left: 30px;
 }
 
-// svg:nth-child(1) {
-//   width: 20px;
-//   height: 28.85px;
-// }
-
-// svg:nth-child(2) {
-//   width: 27px;
-//   height: 34.47px;
-// }
-
-// svg:nth-child(3) {
-//   width: 50px;
-//   height: 40.78px;
-// }
-
-// svg:nth-child(4) {
-//   width: 60px;
-//   height: 50.78px;
-// }
-
 .icons {
-  align-items: center;
   display: flex;
+  align-items: center;
 }
 
 .icons ul{
   display: flex; 
   
-  li {
+  li { 
     display: block;
   }
+}
+
+.svg_shadows_red:hover {
+  filter: drop-shadow(10px -5px 1px red);
+}
+
+.svg_shadows_brown:hover {
+  filter: drop-shadow(10px -5px 1px rgb(110, 107, 13));
+}
+
+.svg_shadows_blue:hover {
+  filter: drop-shadow(10px -5px 1px rgb(47, 13, 110));
+}
+
+.svg_shadows_green:hover {
+  filter: drop-shadow(10px -5px 1px rgb(0, 166, 0));
 }
