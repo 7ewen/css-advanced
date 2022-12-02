@@ -1,14 +1,17 @@
 @import '../node_modules/breakpoint-sass/stylesheets/breakpoint';
-@import 'components/header';
-@import 'base/breakpoints';
-@import 'layout/ratio-box';
-@import 'base/reset';
-@import 'layout/section';
 @import 'base/bootstrap-grid';
-@import 'components/filters';
-@import 'components/gradients';
-@import 'components/icons';
+@import 'base/breakpoints';
+@import 'base/colors';
 @import 'base/helpers'; 
+@import 'base/reset';
+@import 'layout/ratio-box';
+@import 'layout/section';
+@import 'components/filters';
+@import 'components/font-face';
+@import 'components/gradients';
+@import 'components/header';
+@import 'components/icons';
+
 
 
 
