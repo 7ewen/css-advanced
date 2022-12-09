@@ -1,0 +1,114 @@
+@keyframes sasha {
+  5% {
+    left: 0;
+  }
+  10% {
+    top: 0;
+    left: calc(100% - 100px);
+  }
+
+  15% {
+    left: calc(100% - 100px);
+    top: 70px;
+  }
+
+  20% {
+    left: 0;
+  }
+
+  25% {
+    right: calc(100% - 100px);
+    top: 70px;
+  }
+
+  30% {
+    top: 140px;
+    right: calc(100% - 100px);
+  }
+
+  35% {
+    left: 0;
+  }
+
+  40% {
+    left: calc(100% - 100px);
+    right: 0;
+  }
+
+  45% {
+    top: 140px;
+    left: calc(100% - 100px);
+  }
+
+  50% {
+    left: calc(100% - 100px);
+    top: 210px;
+  }
+
+  55% {
+    left: 0;
+    top: 210px;
+  }
+  
+  60% {
+    right: calc(100% - 100px);
+    top: 210px;
+  }
+
+  75% {
+    top: 280px;
+    right: calc(100% - 100px);
+  }
+
+  85% {
+    left: 0;
+  }
+
+  95% {
+    left: calc(100% - 100px);
+    right: 0;
+  }
+
+  100% {
+    top: 280px;
+    left: calc(100% - 100px);
+  }
+}
+
+.animation-area {
+  background-color: #ccc;
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    padding-top: 30%;
+  }
+
+  &:hover {
+    .animation-child {
+      animation-play-state: paused;
+    }
+  }
+}
+
+.animation-child {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: sasha;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+img.damage {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+

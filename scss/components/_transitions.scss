@@ -1,0 +1,132 @@
+.transition-area {
+  background-color: #ccc;
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    padding-top: 50%;
+  }
+
+  &:hover {
+    .transition-child {
+      left: calc(100% - 100px);
+      top: 0;
+    }
+
+    .transition-second-child {
+      left: calc(100% - 100px);
+      top: 0;
+    }
+
+    .transition-copil {
+      left: calc(82% - 100px);
+      top: 20%;
+    }
+
+    .transition-kinder {
+      left: calc(100% - 70px);
+      top: 50%;
+    }
+
+    .transition-second-kinder {
+      left: calc(100% - 80px);
+      bottom: 25%;
+    }
+
+    .transition-rebionoc {
+      left: calc(77% - 50px);
+      bottom: 0;
+    }
+  }
+}
+
+.transition-child { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-duration: 3s;
+  transition-timing-function: ease;
+  transition-delay: 1s;
+}
+
+.transition-second-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 2s;
+}
+
+.transition-copil {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  transition-duration: 3s;
+  transition-timing-function: ease-in;
+  transition-delay: 1s;
+}
+
+.transition-kinder {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transition-duration: 3s;
+  transition-timing-function: cubic-bezier(0.26, 0.81, 1, 0.12);
+  transition-delay: 1s;
+}
+
+.transition-second-kinder  {
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1s;
+}
+
+.transition-rebionoc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition-duration: 3s;
+  transition-timing-function: steps(10, end);;
+  transition-delay: 1s;
+}
+
+img.mamaliga {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+img.prog2 {
+  position: absolute;
+  right: 0;
+  top: 20%;
+}
+
+img.neo {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+}
+ 
+img.fans {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+img.john {
+  position: absolute;
+  left: 0;
+  bottom: 20%;
+}
+
+img.victim {
+  position: absolute;
+  right: 0;
+  bottom: 20%;
+}
