@@ -49,14 +49,77 @@
   </header>
   <main class="main">
     <aside class="sidebar__area">
-      <ul>
+      <!-- <ul>
         <li><a href="#background-box-1">Introduction</a></li>
         <li><a href="#background-box-2">Visual Style</a></li>
         <li><a href="#background-box-3">Voice & Tone</a></li>
         <li><a href="#background-box-4">Ul components</a></li>
         <li><a href="#background-box-5">CSS Utility</a></li>
         <li><a href="#background-box-6">Resources</a></li>
-      </ul>
+      </ul> -->
+      <input id="dropdown-introduction" type="checkbox" type="radio" class="visually-hidden introduction-input" name="dropdown-checkout" value="1">
+      <label class="introduction-button" for="dropdown-introduction">Introduction</label>
+      <div class="introduction-content">
+        <ul>
+          <li>first</li>
+          <li>second</li>
+          <li>third</li>
+        </ul>
+      </div>
+      <input id="dropdown-visualstyle" type="checkbox" type="radio" class="visually-hidden visualstyle-input" name="dropdown-checkout"value="2">
+      <label class="visualstyle-button" for="dropdown-visualstyle">Visual Style</label>
+      <div class="visualstyle-content">
+        <ul>
+          <li>first</li>
+          <li>second</li>
+          <li>third</li>
+        </ul>
+      </div>
+      <input id="dropdown-voice" type="checkbox" type="radio" class="visually-hidden voice-input" name="dropdown-checkout"value="3">
+      <label class="voice-button" for="dropdown-voice">Voice & Tone</label>
+      <div class="voice-content">
+        <ul>
+          <li>first</li>
+          <li>second</li>
+          <li>third</li>
+        </ul>
+      </div>
+      <input id="dropdown-components" type="checkbox" type="radio" class="visually-hidden components-input" name="dropdown-checkout"value="4">
+      <label class="components-button" for="dropdown-components">Ul components</label>
+      <div class="components-content">
+        <ul>
+          <li>Grid System</li>
+          <li>Typography</li>
+          <li>Cards</li>
+          <li>Buttons</li>
+          <li>Color Palette</li>
+          <li>Breadcrumbs</li>
+          <li>Forms</li>
+          <li>Navigation</li>
+          <li>Lists</li>
+          <li>Modals</li>
+          <li>Icons</li>
+          <li>Helper Classes</li>
+        </ul>
+      </div>
+      <input id="dropdown-utility" type="checkbox" type="radio" class="visually-hidden utility-input" name="dropdown-checkout" value="5">
+      <label class="utility-button" for="dropdown-utility">CSS Utility</label>
+      <div class="utility-content">
+        <ul>
+          <li>first</li>
+          <li>second</li>
+          <li>third</li>
+        </ul>
+      </div>
+      <input id="dropdown-resources" type="checkbox" type="radio" class="visually-hidden resources-input" name="dropdown-checkout" value="6">
+      <label class="resources-button" for="dropdown-resources">Resources</label>
+      <div class="resources-content">
+        <ul>
+          <li>first</li>
+          <li>second</li>
+          <li>third</li>
+        </ul>
+      </div>
     </aside>
     <content class="content__area">
       <div class="section" id="background-box-1">
@@ -71,6 +134,82 @@
       <div class="section" id="background-box-3">
         <h2 class="section__title">Background Box 3</h2>
         <div class="section__content">tema de poimaine</div>
+      </div>
+      <div class="section" id="forms">
+        <h2 class="section__title">Forms</h2>
+        <div class="section__content">
+          <form>
+            <h3> Pure CSS dropdown</h3>
+            <input id="dropdown-example" type="checkbox" class="visually-hidden dropdown-input" name="dropdown-checkout">
+            <label class="dropdown-button" for="dropdown-example">Toggle dropdown</label>
+            <div class="dropdown-content">
+              <ul>
+                <li>first</li>
+                <li>second</li>
+                <li>third</li>
+              </ul>
+            </div>
+            <h3>Cards</h3>
+            <div class="cards">
+              <input checked type="radio" class="visually-hidden cards__input cards__input--1" id="cards-item-1" name="cards-radio" value="1">
+              <input type="radio" class="visually-hidden cards__input cards__input--2" id="cards-item-2" name="cards-radio" value="2">
+              <input type="radio" class="visually-hidden cards__input cards__input--3" id="cards-item-3" name="cards-radio" value="3">
+              <input type="radio" class="visually-hidden cards__input cards__input--4" id="cards-item-4" name="cards-radio" value="4">
+              <label for="cards-item-1" class="cards__button cards__button--1">Card one</label>
+              <label for="cards-item-2" class="cards__button cards__button--2">Card two</label>
+              <label for="cards-item-3" class="cards__button cards__button--3">Card three</label>
+              <label for="cards-item-4" class="cards__button cards__button--4">Card four</label>
+            </div>
+            <h3>Custom Checkbox</h3>
+            <label class="checkbox" for="custom-checkbox">
+              <input class="checkbox__input visually-hidden" type="checkbox" name="custom-checkbox" id="custom-checkbox">
+              <div class="checkbox__box">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                  <path d="M3.556 14.222l-3.556 3.556 10.667 10.667 21.333-21.333-3.556-3.556-17.778 17.778-7.111-7.111z"></path>
+                </svg>
+              </div>
+              <span class="checkbox__label">
+                Checkbox with Custom Style
+              </span>
+            </label>
+            <h3>Simple Select</h3>
+            <div class="simple-select">
+              <select name="simple-select" id="simple-select">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <svg class="simple-select__arrow" version="1.1" xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 28 32">
+                <path d="M12.939 23.842l-12.146-12.146c-0.586-0.586-0.586-1.536 0-2.121l1.417-1.417c0.585-0.585 1.533-0.586 2.119-0.002l9.672 9.626 9.672-9.626c0.586-0.583 1.534-0.582 2.119 0.002l1.417 1.417c0.586 0.586 0.586 1.536 0 2.121l-12.146 12.146c-0.586 0.586-1.536 0.586-2.121 0z"></path>
+              </svg>
+            </div>
+            <h3>Advanced Select</h3>
+            <select class="advanced-select" name="advanced-select" id="advanced-select">
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <h3>bootstrap form</h3>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
       </div>
       <div class="section" id="animations">
         <h2 class="section__title">Animations</h2>
@@ -456,5 +595,8 @@
       </div>
     </content>
   </main>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/select2/dist/js/select2.full.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
